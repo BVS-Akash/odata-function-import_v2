@@ -1,0 +1,13 @@
+### Service metadata
+GET /sap/opu/odata/sap/ZFI_FUNCTION_IMPORT_DEMO_SRV/$metadata
+
+### Convert USD to EUR (replace date and values with maintained test data)
+GET /sap/opu/odata/sap/ZFI_FUNCTION_IMPORT_DEMO_SRV/ConvertCurrency?Amount='100.00'&FromCurrency='USD'&ToCurrency='EUR'&ExchangeRateDate=datetime'2026-07-28T00:00:00'
+Accept: application/json
+
+### Vendor open items
+GET /sap/opu/odata/sap/ZFI_FUNCTION_IMPORT_DEMO_SRV/GetVendorOpenItems?CompanyCode='1000'&Vendor='0000100000'&KeyDate=datetime'2026-07-28T00:00:00'
+Accept: application/json
+
+### Negative: missing parameter
+GET /sap/opu/odata/sap/ZFI_FUNCTION_IMPORT_DEMO_SRV/ConvertCurrency?Amount='100.00'&FromCurrency='USD'&ToCurrency='EUR'

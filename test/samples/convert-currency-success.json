@@ -1,0 +1,11 @@
+{
+  "d": {
+    "__metadata": { "type": "ZFI_FUNCTION_IMPORT_DEMO_SRV.CurrencyConversionResult" },
+    "Amount": "100.00",
+    "FromCurrency": "USD",
+    "ToCurrency": "EUR",
+    "ExchangeRate": "0.920000000",
+    "ConvertedAmount": "92.00",
+    "ExchangeRateDate": "/Date(1785196800000)/"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "d": {
+    "results": [
+      {
+        "CompanyCode": "1000", "Vendor": "0000100000", "AccountingDocument": "1900000123", "FiscalYear": "2026", "LineItem": "001",
+        "DocumentType": "KR", "DocumentDate": "/Date(1785196800000)/", "PostingDate": "/Date(1785196800000)/", "DueDate": "/Date(1785801600000)/",
+        "Amount": "1250.00", "Currency": "EUR", "DebitCreditIndicator": "H", "Assignment": "PO-4500001234", "Reference": "INV-1001", "BusinessArea": "1000", "ProfitCenter": "PC1000"
+      }
+    ]
+  }
+}

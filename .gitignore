@@ -1,0 +1,6 @@
+# SAP GUI/editor and local tooling
+*.asx
+*.swp
+.idea/
+node_modules/
+coverage/

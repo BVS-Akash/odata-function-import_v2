@@ -1,0 +1,6 @@
+{
+  "error": {
+    "code": "ZFI_FUNCTION_IMPORT_DEMO/VALIDATION",
+    "message": { "lang": "en", "value": "No vendor open items were found for the supplied key date." }
+  }
+}

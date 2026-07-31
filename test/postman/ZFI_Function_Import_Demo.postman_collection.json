@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "ZFI Function Import Demo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "https://your-sap-host/sap/opu/odata/sap/ZFI_FUNCTION_IMPORT_DEMO_SRV" },
+    { "key": "companyCode", "value": "1000" },
+    { "key": "vendor", "value": "0000100000" },
+    { "key": "keyDate", "value": "2026-07-28" }
+  ],
+  "item": [
+    { "name": "Metadata", "request": { "method": "GET", "url": "{{baseUrl}}/$metadata" } },
+    { "name": "Convert Currency", "request": { "method": "GET", "header": [{"key":"Accept","value":"application/json"}], "url": "{{baseUrl}}/ConvertCurrency?Amount='100.00'&FromCurrency='USD'&ToCurrency='EUR'&ExchangeRateDate=datetime'{{keyDate}}T00:00:00'" } },
+    { "name": "Get Vendor Open Items", "request": { "method": "GET", "header": [{"key":"Accept","value":"application/json"}], "url": "{{baseUrl}}/GetVendorOpenItems?CompanyCode='{{companyCode}}'&Vendor='{{vendor}}'&KeyDate=datetime'{{keyDate}}T00:00:00'" } }
+  ]
+}
