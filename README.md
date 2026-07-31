@@ -81,4 +81,7 @@ For a conceptual guide to Function Imports, their return types, and how they dif
 
 ## Future enhancements
 
-Add unit tests with test doubles, application log correlation IDs, paging/filtering for the item list, service-specific authorization objects, and an approved released API adapter for newer backends.
+## Future enhancements
+
+Add unit tests with test doubles, application log correlation IDs, paging/filtering for the item list, service-specific authorization objects, and an approved released API adapter for newer backends. Add support to explore `$expand` with Function Imports and expanded return entity types using associations.
+
